@@ -1,0 +1,50 @@
+# Agregar archivos específicos para Android
+android/.gradle/
+android/key.jks
+android/local.properties
+
+# Agregar archivos específicos para iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/App.framework/
+ios/Flutter/Generated.xcconfig
+
+# Archivos para macOS
+macos/Flutter/Flutter.framework/
+macos/Flutter/App.framework/
+macos/.flutter-plugins
+macos/.flutter-plugins-dependencies
+
+# Archivos para Linux
+linux/flutter/ephemeral/
+linux/.flutter-plugins
+linux/.flutter-plugins-dependencies
+
+# Archivos para Windows
+windows/flutter/ephemeral/
+windows/.flutter-plugins
+windows/.flutter-plugins-dependencies
+
+# Archivos de cobertura de pruebas
+coverage/
+test/**.log
+
+# Archivos temporales o innecesarios
+*.tmp
+*.lock
+*.bak
+*.orig
+*.log
+*.ldb
+
+# Archivos de configuración de editores
+.vscode/
+*.code-workspace
+
+
+/build
+.dart_tool/
+.flutter-plugins
+local.properties
+.flutter
